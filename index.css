@@ -1,10 +1,32 @@
-body {
-    background-color: #e8cccc;
-}
-header {
-    size: 100px;
-    background-color: gray;
-}
 nav {
-    background-color: gray;
+    position:fixed;
+    width: 100%;
+    align
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+li {
+    display: inline;
+}
+ul {
+    display: -webkit-flex; 
+    display: flex;
+    background: #FFD7A7;
+    padding-left: 0;
+  }
+a {
+    padding: 1em;
+    display: block;
+    color: #9B4222;
+    border-right: 1px solid #FFAB51;
+    background: rgba(255, 171, 81, .3);
+  }
+a:hover {
+    background: #FFAB51
 }
