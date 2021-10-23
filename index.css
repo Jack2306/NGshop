@@ -1,7 +1,6 @@
-nav {
+nav.topnav {
     position:fixed;
     width: 100%;
-    align
 }
 ul {
     list-style: none; /*убираем маркеры списка*/
@@ -28,5 +27,8 @@ a {
     background: rgba(255, 171, 81, .3);
   }
 a:hover {
-    background: #FFAB51
+    background: #FFAB51 /*Цвет фона*/
+}
+footer {
+
 }
